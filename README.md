@@ -17,8 +17,6 @@ OmniParser V2.0 represents a significant advancement in AI vision parsing techno
 - [My Open Source Project](https://github.com/win4r/AISuperDomain)
 - [Buy Me a Coffee](https://ko-fi.com/aila)
 
-Contact me via WeChat: stoeng [Please specify your intention when adding me]  
-Available for projects related to large model fine-tuning, RAG, AI agents, and AI application development.
 
 ---
 
