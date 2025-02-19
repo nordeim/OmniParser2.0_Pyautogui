@@ -362,10 +362,3 @@ if __name__ == "__main__":
 `LLMs`
 
 📅 Updated: February 18, 2025
-```
-
-# Server Configuration
-cd ~/OmniParser
-pip install fastapi uvicorn python-multipart pillow requests
-nano main.py
-python main.py
