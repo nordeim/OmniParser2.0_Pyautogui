@@ -1,4 +1,4 @@
-You're asking for the equivalent commands to pip install open-webui using uv and conda. Let's break down how to achieve this with each tool, considering best practices and potential scenarios.
+Equivalent commands to "pip install open-webui" using uv and conda. Let's break down how to achieve this with each tool, considering best practices and potential scenarios.
 
 **Important Note Before Proceeding:**
 
