@@ -3,7 +3,7 @@
 🚀 **Local Deployment of OmniParser v2.0 with pyautogui for True Automated Clicking!**  
 Supports macOS, Windows, and Linux! Easily automate computer operations! From server deployment to client development, from API design to full automation control workflow.
 
-[https://www.aivi.fyi//llms/deploy-omniparser2.0](https://www.youtube.com/watch?v=aBcedtGCA9I)
+[Read on the website](https://www.aivi.fyi//llms/deploy-omniparser2.0)
 
 ⏱️ **4-minute read**
 
@@ -15,8 +15,6 @@ OmniParser V2.0 represents a significant advancement in AI vision parsing techno
 - [Watch on Bilibili](https://www.bilibili.com/video/BV1u3AaeqEtm/)
 - [Watch on YouTube](https://youtu.be/aBcedtGCA9I)
 - [My Open Source Project](https://github.com/win4r/AISuperDomain)
-- [Buy Me a Coffee](https://ko-fi.com/aila)
-
 
 ---
 
