@@ -24,26 +24,31 @@ Simplified Package Management: Provides a consistent way to install, update, and
 **Binary Packages:** Conda primarily installs pre-compiled binary packages. This generally makes installations faster and more reliable compared to compiling from source (like some package managers do).
 
 **How does Conda work?**
+
 At its core, Conda works by creating and managing isolated directories called environments.  Here's a simplified breakdown:
 
-Environments are Directories: When you create a Conda environment, it's essentially creating a new directory on your system.  This directory contains:
+**Environments are Directories:** When you create a Conda environment, it's essentially creating a new directory on your system.  This directory contains:
 
-A Python interpreter: Each environment can have its own Python interpreter (or no Python interpreter at all if needed for other languages).
-Installed packages: All the packages you install within that environment are placed within this directory.
-Environment metadata: Information about the environment, including the installed packages and their versions, is stored in metadata files.
+**A Python interpreter:** Each environment can have its own Python interpreter (or no Python interpreter at all if needed for other languages).
+
+**Installed packages:** All the packages you install within that environment are placed within this directory.
+
+**Environment metadata:** Information about the environment, including the installed packages and their versions, is stored in metadata files.
 Package Resolution and Installation: When you want to install a package in an environment, Conda's package manager does the following:
 
-Dependency Resolution: It analyzes the package you want to install and all its dependencies (the other packages it needs to function). Conda tries to find a compatible set of packages that satisfies all dependencies.
+**Dependency Resolution:** It analyzes the package you want to install and all its dependencies (the other packages it needs to function). Conda tries to find a compatible set of packages that satisfies all dependencies.
 Package Download: Conda fetches the required packages from channels (repositories where packages are stored). By default, it uses the anaconda channel, which is a large collection of packages. You can also add other channels (like conda-forge, which is community-driven and has a vast collection).
-Package Installation: Conda installs the downloaded packages into the environment's directory.
+
+**Package Installation:** Conda installs the downloaded packages into the environment's directory.
 Environment Activation: When you "activate" a Conda environment, you're essentially telling your operating system to prioritize the Python interpreter and packages located within that environment's directory.
 
-PATH Modification: Conda temporarily modifies your system's PATH environment variable. The PATH variable tells your operating system where to look for executable files (like python.exe, pip.exe, etc.). Activation makes the environment's bin directory (or Scripts directory on Windows) the first place the system looks for these executables.
+**PATH Modification:** Conda temporarily modifies your system's PATH environment variable. The PATH variable tells your operating system where to look for executable files (like python.exe, pip.exe, etc.). Activation makes the environment's bin directory (or Scripts directory on Windows) the first place the system looks for these executables.
 Environment Variables: Conda might set other environment variables to configure the environment.
 Prompt Change (Visual Cue): Usually, your command prompt will change to indicate the active environment name in parentheses, e.g., (omni) C:\Users\YourName>.
-Deactivation: When you "deactivate" an environment, Conda reverses the changes made during activation. It restores your PATH variable and other environment variables to their original state, effectively removing the environment's priority.
 
-In simpler terms: Conda creates separate boxes (environments) for your projects.  When you work on a project, you step into its box (activate the environment). Inside the box, you have all the tools (packages) you need without affecting other boxes. When you're done, you step out (deactivate), and your system goes back to its normal state.
+**Deactivation:** When you "deactivate" an environment, Conda reverses the changes made during activation. It restores your PATH variable and other environment variables to their original state, effectively removing the environment's priority.
+
+**In simpler terms:** Conda creates separate boxes (environments) for your projects.  When you work on a project, you step into its box (activate the environment). Inside the box, you have all the tools (packages) you need without affecting other boxes. When you're done, you step out (deactivate), and your system goes back to its normal state.
 
 **How to install Conda on Windows 10**
 
