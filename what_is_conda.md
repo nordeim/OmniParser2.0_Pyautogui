@@ -1,5 +1,3 @@
-Let's break down Conda step-by-step.
-
 ## **What is Conda?**
 
 Imagine you have different projects on your computer, and each project needs specific versions of software libraries to work correctly. Trying to manage these different versions can quickly become a mess – this is often called "dependency hell."
