@@ -3,7 +3,7 @@
 🚀 **Local Deployment of OmniParser v2.0 with pyautogui for True Automated Clicking!**  
 Supports macOS, Windows, and Linux! Easily automate computer operations! From server deployment to client development, from API design to full automation control workflow.
 
-[Read on the website](https://www.aivi.fyi//llms/deploy-omniparser2.0)
+[https://www.aivi.fyi//llms/deploy-omniparser2.0](https://www.youtube.com/watch?v=aBcedtGCA9I)
 
 ⏱️ **4-minute read**
 
